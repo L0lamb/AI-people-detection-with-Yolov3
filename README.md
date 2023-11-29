@@ -2,6 +2,18 @@
 # People detection using the YOLOv3 algorithm
 YOLOv3 is a real-time object detection algorithm. The following model uses it to differentiate people from other object
 # Overview of YOLOv3's network architecture
-![Imgur](assets/yolo-architecture.png)
+![Imgur](https://i.stack.imgur.com/eZkfj.png)
 #Requirement
-The AI requires you to have coco.name as a database 
+- The AI requires you to have [coco.name](http://mscoco.org/dataset/#overview) as a database or you can use the coco.name has provided in here
+- Opencv:
+1. Easy integration with an OpenCV application: If your application already uses OpenCV and you want to use YOLOv3, you don’t have to worry about compiling and building the extra Darknet code.
+2. OpenCV CPU version is 9x faster: OpenCV’s CPU implementation of the DNN module is astonishingly fast. For example, Darknet, when used with OpenMP takes about 2 seconds on a CPU for inference on a single image. In contrast, OpenCV’s implementation runs in a mere 0.22 seconds! Check out table below.
+3. Python support: Darknet is written in C and does not officially support Python. In contrast, OpenCV does. There are python ports available for Darknet, though.
+- The Yolov3 module as provided for no reason at all (or maybe use on [this](https://pjreddie.com/darknet/yolo/) and change the confident of the code with the class id)
+#Prerequisites
+* opencv-python
+* opencv-contrib-python
+* Numpy
+
+#Notes:
+* As of right now, there is a problem with the A.I or the database that cause the result to overlap and give out multiple outline for 1 result which i can only guess the ai mistook many layer for 1 result.
