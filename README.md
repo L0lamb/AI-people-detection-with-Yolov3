@@ -21,7 +21,7 @@ YOLOv3 is a real-time object detection algorithm. The following model uses it to
 ![Screenshot 2023-11-30 011510.png](https://github.com/L0lamb/AI-people-detection-with-Yolov3/blob/main/Images/Screenshot%202023-11-30%20011510.png)
 
 3. Change the path of the image you want to detect
-[![Screenshot](Screenshot 2023-11-30 013528.png)](https://github.com/L0lamb/AI-people-detection-with-Yolov3/blob/main/Images/Screenshot%202023-11-30%20013528.png)
+![ Screenshot 2023-11-30 013528.png](https://github.com/L0lamb/AI-people-detection-with-Yolov3/blob/main/Images/Screenshot%202023-11-30%20013528.png)
 
 #Notes:
 * As of right now, there is a problem with the A.I or the database that caused the result to overlap and give out multiple outlines for 1 result which I can only guess the AI mistook many layers for 1 result.
