@@ -15,13 +15,16 @@ YOLOv3 is a real-time object detection algorithm. The following model uses it to
 * opencv-contrib-python
 * Numpy
 #Instruction:
-1. Download the [config](https://github.com/pjreddie/darknet/blob/master/cfg/yolov3-spp.cfg) with the [weight](https://pjreddie.com/media/files/yolov3-spp.weights) of YOLOv3 spp.
-2. Change the directory in the 6 lines of the code into the path on your computer so it matches the path of the YOLOv3
+1. Set up all the Prerequistites and requirement
+2. Download the [config](https://github.com/pjreddie/darknet/blob/master/cfg/yolov3-spp.cfg) with the [weight](https://pjreddie.com/media/files/yolov3-spp.weights) of YOLOv3 spp.
+3. Change the directory in the 6 lines of the code into the path on your computer so it matches the path of the YOLOv3
 
 ![Screenshot 2023-11-30 011510.png](https://github.com/L0lamb/AI-people-detection-with-Yolov3/blob/main/Images/Screenshot%202023-11-30%20011510.png)
 
-3. Change the path of the image you want to detect
+4. Change the path of the image you want to detect
+
 ![ Screenshot 2023-11-30 013528.png](https://github.com/L0lamb/AI-people-detection-with-Yolov3/blob/main/Images/Screenshot%202023-11-30%20013528.png)
 
+5. Run your code
 #Notes:
 * As of right now, there is a problem with the A.I or the database that caused the result to overlap and give out multiple outlines for 1 result which I can only guess the AI mistook many layers for 1 result.
