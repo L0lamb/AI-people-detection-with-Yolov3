@@ -17,7 +17,8 @@ YOLOv3 is a real-time object detection algorithm. The following model uses it to
 #Instruction:
 1. Download the [config](https://github.com/pjreddie/darknet/blob/master/cfg/yolov3-spp.cfg) with the [weight](https://pjreddie.com/media/files/yolov3-spp.weights) of YOLOv3 spp.
 2. Change the directory in the 6 lines of the code into the path on your computer so it matches the path of the YOLOv3
-![Screenshot]([Screenshot 2023-11-30 011510.png](https://github.com/L0lamb/AI-people-detection-with-Yolov3/blob/main/Images/Screenshot%202023-11-30%20011510.png))
+
+![Screenshot]([Screenshot 2023-11-30 011510.png](https://github.com/L0lamb/AI-people-detection-with-Yolov3/blob/main/Images/Screenshot%202023-11-30%20011510.png)
 3. Change the path of the image you want to detect
 ![Screenshot](Screenshot 2023-11-30 013528.png)
 
