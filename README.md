@@ -17,8 +17,9 @@ YOLOv3 is a real-time object detection algorithm. The following model uses it to
 #Instruction:
 1. Download the [config](https://github.com/pjreddie/darknet/blob/master/cfg/yolov3-spp.cfg) with the [weight](https://pjreddie.com/media/files/yolov3-spp.weights) of YOLOv3 spp.
 2. Change the directory in the 6 lines of the code into the path on your computer so it match the path of the YOLOv3
-[image](Images/Screenshot 2023-11-30 011510.png)
-3. 
+![Image](Images/Screenshot 2023-11-30 011510.png)
+3. Change the path of the image you want to detect
+![Image](
 
 #Notes:
 * As of right now, there is a problem with the A.I or the database that cause the result to overlap and give out multiple outline for 1 result which i can only guess the ai mistook many layer for 1 result.
