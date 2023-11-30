@@ -75,7 +75,7 @@ for (x, y, w, h) in people:
 # Show the image using cv2_imshow
 cv2_imshow(image)
 cv2.waitKey(0)
-print(detection)
+cv2.destroyAllWindows()
 
 net = cv2.dnn.readNet("/content/yolov3-spp.cfg", "/content/yolov3-spp.weights")
 print(confidence,class_id)
